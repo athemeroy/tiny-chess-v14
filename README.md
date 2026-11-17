@@ -6,6 +6,14 @@
 
 A 4 KB pure-Python 0x88 chess engine with incremental tapered PST evaluation, PVS, LMR, null-move pruning, aspiration windows, and endgame mop-up, built for [make.fun](https://make.fun/bounty/tiny-chess-01).
 
+Version 14 uses a 90,000-node search budget and a Slav Defense opening-book continuation.
+
+## Build
+
+```bash
+node /Users/athemeroy/.local/share/muse/makefun/tiny-chess-01-kit/cli/makefun.mjs compress engine.py --out main.py
+```
+
 ## Run
 
 ```bash
